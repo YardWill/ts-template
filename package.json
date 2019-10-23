@@ -4,7 +4,8 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "build"
   },
   "devDependencies": {
     "typescript": "^3.6.4"
